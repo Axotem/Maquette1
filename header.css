@@ -1,0 +1,97 @@
+.wrapper {
+    background-size: cover;
+    height: 700px;
+    padding: 70px 200px 0px 200px;
+    background-image: linear-gradient( rgba(0,0,0, 0.5),rgba(0,0,0, 0.5)), url(images/beacon.jpg);
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 13px;
+}
+
+.contact i {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+.infos{
+    display: flex;
+    flex-direction: row;
+}
+
+.icones {
+    display: flex;
+}
+
+.icones a {
+    text-decoration: none;
+    color: white;
+}
+
+a:nth-child(1) {
+    color: rgb(242, 165, 78);
+}
+
+nav {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1 {
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu a:nth-child(1) {
+    color: rgb(242, 165, 78);
+}
+
+.menu a {
+    text-decoration: none;
+    text-align: right;
+    padding: 15px;
+    margin-top: 5px;
+    color: white;
+    font-size: 14px;
+}
+
+.accueil {
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 200px;
+}
+
+.accueil h1 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.accueil h1::after{
+    content: "";
+    display: block;
+    margin: auto;
+    background-color: rgb(242, 165, 78);
+    width: 175px;
+    height: 5px;
+    margin-bottom: 20px;
+    margin-top: 4px;
+}
+
+.accueil p {
+    margin-bottom: 52px;
+    font-size: 18px;
+}

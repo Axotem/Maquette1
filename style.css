@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+}
+
+/* article 1 */
+
+.article1{
+    margin-inline: 150px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.article1 h1{
+    text-align: center;
+}
+
+.article1 h1::after{
+    content: "";
+    display: block;
+    margin: auto;
+    background-color: rgb(242, 165, 78);
+    width: 50px;
+    height: 4px;
+    margin-bottom: 70px;
+    margin-top: 4px;
+}
+
+.articles-alignement{
+    display: flex;
+    justify-content: center;
+}
+
+.article1 article{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-inline: 19px;
+}
+
+.article1 i{
+    color: black;
+    font-size: 40px;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.list-content1{
+    display: flex;
+    flex-direction: column;
+}
+
+.list-content1 h2{
+    margin: 0;
+    font-size: 20px;
+}
+
+.list-content1 p{
+    margin-bottom: 9px;
+}
+
+.list-content1 a{
+    color: black;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.bouton{
+    background-color: rgb(242, 165, 78);
+    color: white;
+    height: 40px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-decoration: none;
+}
+
+
+
+
+/* article 3 */
+
+
+.night{
+    background-image: url(./images/night.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.transparence{
+    background-color: white;
+    width: 260px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    opacity: 50%;
+}
+
+.article3{
+    background-color: white;
+    width: 620px;
+    margin-right: auto;
+    padding: 24px;
+    padding-bottom: 0px;
+}
+
+.article3 h1::after{
+    content: "";
+    display: block;
+    background-color: rgb(242, 165, 78);
+    width: 90px;
+    height: 4px;
+    margin-bottom: 30px;
+    margin-top: 8px;
+}
+
+.article3 p{
+    margin-bottom: 35px;
+}
+
+.article3 ul{
+    list-style: none;
+}
+
+.article3 li{
+    display: flex;
+    flex-direction: row;
+}
+
+.article3 i{
+    color: rgb(242, 165, 78);
+    font-size: 25px;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.list-content3{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.list-content3 h2{
+    margin: 0;
+}
+
+.list-content3 p{
+    margin-bottom: 9px;
+}
+
+.list-content3 a{
+    color: rgb(242, 165, 78);
+    margin-bottom: 30px;
+    text-decoration: none;
+}
